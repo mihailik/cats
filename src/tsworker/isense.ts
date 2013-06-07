@@ -17,7 +17,7 @@
 //
 
 
-importScripts("../static/js/typescript.js")
+importScripts("../static/js/typescriptServices.js")
 
 module Cats.TSWorker {
     
