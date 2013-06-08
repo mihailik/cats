@@ -59,8 +59,6 @@ module Compiler {
 
             /** create file gets the whole path to create, so this works as expected with the --out parameter */
             public createFile(s: string, useUTF8?: boolean): ITextWriter {
-                writer.Close();
-
                 if (this.fileCollection[s]) {
                     return <ITextWriter>this.fileCollection[s];
                 }
